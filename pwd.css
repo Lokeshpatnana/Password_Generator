@@ -1,0 +1,92 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(https://img.freepik.com/free-vector/security-concept-illustration_114360-1518.jpg?w=1060&t=st=1663581615~exp=1663582215~hmac=26224a211bac64d7ef3e4c47e228c20a4ddf04bd71eda4abe1c7d4f414fb463e);
+  background-size: cover;
+  color: black;
+  /* font-weight: bold; */
+  font-family: "Times New Roman", sans-serif;
+}
+h2{
+  color: rgb(229, 30, 96);
+  text-align: center;
+}
+.container {
+  padding: 20px;
+  width: 320px;
+  max-width: 100%;
+  background: transparent;
+  margin-top: 10%;
+  margin-left: 35%;
+  /* height: 200px; */
+}
+input{
+  color: rgb(229, 30, 96);
+}
+.result-container {
+  border: 1px solid rgb(71, 70, 70);
+  border-radius: 16px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  position: relative;
+  font-size: 18px;
+  letter-spacing: 1px;
+  height: 60px;
+  width: 100%;
+  margin-bottom: 35px;
+}
+
+textarea {
+  background: none;
+  border: none;
+  font-size: 20px;
+  margin-top: auto;
+  outline: none;
+  resize: none;
+}
+
+.result-container .btn {
+  font-size: 20px;
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  height: 40px;
+  width: 40px;
+}
+
+.buttons {
+  display: flex;
+}
+
+.btn {
+  width: 50%;
+  border: black;
+  color: whitesmoke;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 8px 12px;
+  margin: 14px 5px 7px 5px;
+  background-color: rgb(229, 30, 96);
+  border-radius: 16px;
+}
+
+.btn:hover {
+  transition: 0.3s ease-in-out;
+}
+
+.setting {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 15px 0;
+}
+@media screen and (max-width: 400px) {
+  .result-container {
+    font-size: 14px;
+  }
+}
